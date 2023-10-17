@@ -2,30 +2,19 @@
 ### AprilTag Detection and Tracking with ROS 2
 
 
-## Build:
-1. Make a directory `ros_ws` to act as your ROS 2 workspace.
-    ```bash
-    $ mkdir -p ~/ros_ws/src/
-    ```
-2. Clone this repository:
-    ```bash
-    $ git clone https://github.com/Olin-RoboSys/AprilTag-ROS-2.git
-    ```
-3. Build the packages.
-    ```bash
-    $ cd ~/ROS2_WS
-    $ colcon build
-    ```
-4. Source the `setup.bash` file of your `ROS2_WS`.
-    ```bash
-    $ echo "source ~/ros_ws/install/setup.bash" >> ~/.bashrc
-    $ source ~/.bashrc
-    ```
+## Implementation
+https://github.com/aivilo-d/AprilTag-ROS-2/blob/main/apriltag_ros/src/april_tag_subscriber.py
 
-## Execute:
-```bash
-$ ros2 launch apriltag_ros apriltag_ros.launch.py
-```
+## Videos:
+
+
+https://github.com/aivilo-d/AprilTag-ROS-2/assets/86380596/ca65c0b1-afae-4da6-aabd-ef284d1e9ab4
+
+
+
+https://github.com/aivilo-d/AprilTag-ROS-2/assets/86380596/5ac6a9ca-1d8e-43b8-99e0-31c7b6228681
+
+
 
 ## Acknowledgement:
 This repository was heavily adapted from the [AprilTag Detection and Tracking from Tinker-Twins](https://github.com/Tinker-Twins/AprilTag).
